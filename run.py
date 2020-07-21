@@ -18,7 +18,7 @@ try:
 	else:
 		print('[*] IP forwarder Connected')
 		print('[+] starting MonVIP')
-		os.system("pm2 stop all >logs;pm2 delete all >logs;pm2 start index.js > logs")
+		os.system("pm2 delete all;pm2 start index.js")
 		os.system("xdg-open "+(monvip))
 except:
 	time.sleep(2)
