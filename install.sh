@@ -1,4 +1,4 @@
-#!/bin/usr
+#!/bin/bash
 
 sudo su
 rm -rf ~/MonVIP
