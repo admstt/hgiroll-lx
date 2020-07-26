@@ -1,6 +1,5 @@
 #!/bin/bash
 
-sudo su
 rm -rf ~/MonVIP
 mkdir ~/MonVIP
 cd .. && cp -r hgiroll-lx/* ~/MonVIP
